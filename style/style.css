@@ -16,6 +16,9 @@ html, body{
 .navbar{
      background-color: #212529;
 }
+.nav-bar:hover{
+     color: blue;
+}
 
 #hero-banner{
      background-color: blue;
@@ -180,7 +183,7 @@ html, body{
      bottom: 0;
      left: 0;
      right: 0;
-     margin-top: 250px;
+     margin-top: 350px;
  }
  @media only screen and (min-width: 720px){
      .center {
