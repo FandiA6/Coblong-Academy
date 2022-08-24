@@ -1,0 +1,237 @@
+html, body{
+     /* overflow-y: hidden; */
+     max-width: 100%;
+     overflow-x:hidden;
+}
+#loading {
+     /* (A1) COVER FULL PAGE */
+     position: fixed;
+     top: 0; left: 0; z-index: 999;
+     width: 100vw; height: 100vh;
+}
+.container{
+     margin: 0;
+     
+}
+.navbar{
+     background-color: #212529;
+}
+
+#hero-banner{
+     background-color: blue;
+}
+
+.carousel-item:after {
+     content:"";
+     position:absolute;
+     top:0;
+     bottom:0;
+     left:0;
+     right:0;
+     background:rgba(0,0,0,0.6);
+   }
+#card{
+     background-color: #212529;
+}
+.card{ 
+     height: auto;
+     opacity: 0.5;
+     transition: margin 0.2s ease-in-out;
+     
+}
+.card:hover{
+     opacity: 1;
+     margin-top: -10px;
+     /* transition: margin 0.2s ease-in-out; */
+
+}
+.stretched-link::after {
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     z-index: 1;
+     pointer-events: auto;
+     content: "";
+     background-color: rgba(0,0,0,0);
+ }
+.bg-image-f{
+     /* background-size: 30vh; */
+     
+     /* background-position: center; */
+     /* width: 200px;
+  height: 200px; */
+  display: block;
+  position: relative;
+     
+}
+.bg-image-f:after{
+     content: "";
+     background-size: 70vh;
+     background-image: url(../img/radiohead.png);
+     opacity: 0.2;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;   
+     background-repeat: no-repeat;
+     transform: rotate(20deg);
+  /* background-position: left; */
+}
+.bg-image-s{
+     /* background-size: 30vh; */
+     
+     /* background-position: center; */
+     /* width: 200px;
+  height: 200px; */
+  display: block;
+  position: relative;
+ 
+     
+}
+.bg-image-s:after{
+     content: "";
+     background-size: 100vh;
+     background-image: url(../img/11239.jpg);
+     opacity: 0.5;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;   
+     padding-top: 200px;
+     background-repeat: no-repeat;
+     background-position: left;
+     transform: rotate(60deg);
+  /* background-position: left; */
+}
+
+#shila{
+     background: #212529;
+}
+.img-hover:hover{
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     padding: 5px;
+     width: 150px;
+     pointer-events: auto;
+     box-shadow: 0 0 2px 1px rgba(0, 191, 255, 0.5);
+}
+
+#dede{
+     background-color: #212529;
+     
+}
+#rendy{
+     background-color: #212529;
+
+}
+.reveal{
+     position: relative;
+     transform: translateY(150px);
+     opacity: 0;
+     transition: 2s all ease;
+   }
+   .reveal.active{
+     transform: translateY(0);
+     opacity: 1;
+   }
+   .social-icon-style2 li a {
+     display: inline-block;
+     font-size: 14px;
+     text-align: center;
+     color: #ffffff;
+     background: #54456b;
+     height: 41px;
+     line-height: 41px;
+     width: 41px;
+ }
+ .social-icon-style2 {
+     margin-top: 20px;
+     margin-bottom: 40px;
+     /* padding-right: -20px; */
+     display: flex;
+     justify-content: space-between;
+     /* padding-left: 10px; */
+     list-style: none;
+ }
+@media only screen and (min-width: 720px){
+     .social-icon-style2{
+          justify-content: space-around;
+          width: 200px;
+
+     }
+}
+
+.center {
+
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin-top: 250px;
+ }
+ @media only screen and (min-width: 720px){
+     .center {
+
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: 300px;
+      }
+}
+@media only screen and (min-width: 720px){
+     #shila{
+          padding-top: 100px;
+          height: 100vh;
+     }   
+}
+@media only screen and (min-width: 720px){
+     #fandi{
+          padding-top: 100px;
+          height: 95vh;
+     }
+}
+@media only screen and (min-width: 720px){
+     #diaz{
+          padding-top: 100px;
+          height: 95vh;
+     }
+}
+@media only screen and (min-width: 720px){
+     #dede{
+          padding-top: 120px;
+          height: 100vh;
+     }
+}
+@media only screen and (min-width: 720px){
+     #faiq{
+          padding-top: 100px;
+          height: 95vh;
+     }
+}
+@media only screen and (min-width: 720px){
+     #rendy{
+          padding-top: 100px;
+          height: 100vh;
+     }
+}
+@media only screen and (min-width: 720px){
+     #boye{
+          padding-top: 100px;
+          height: 95vh;
+     }
+}
+@media only screen and (min-width: 720px){
+     .card-ms{
+          margin-left: 140px;
+     }
+}
+

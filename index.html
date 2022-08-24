@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Coblong Academy</title>
+     <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+     integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+     <!-- Spinner -->
+     <section id="loading">
+          <div class="text-center center ">
+               <div class="spinner-border" role="status">
+                 <span class="visually-hidden">Loading...</span>
+               </div>
+             </div>
+     </section>
+     <!-- Navbar -->
+     
+     
+        <header>
+          <!-- <div class="collapse" id="navbarToggleExternalContent">
+               <div class="bg-dark p-4">
+                 <h5 class="text-white h4">Collapsed content</h5>
+                 <span class="text-muted">Toggleable via the navbar brand.</span>
+               </div>
+          </div>
+             <nav class="navbar navbar-dark bg-dark">
+               <div class="container-fluid">
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+               </div>
+             </nav> -->
+          
+          <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
+           <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse d-md-flex justify-content-center" id="main_nav">
+               <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#card"> Our Teams </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fandi"> About Us </a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li> -->
+               </ul>
+            </div> <!-- navbar-collapse.// -->
+           </div> <!-- container-fluid.// -->
+          </nav>
+          </header>
+     <!-- End Navbar -->
+
+        <!-- Carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="5000">
+              <img src="img/banner.jpeg" class="d-block w-100 h-50 img-fluid " alt="banner">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p  >Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="img/banner1.jpeg" class="d-block w-100 img-fluid" alt="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="img/banner2.jpeg" class="d-block w-100 img-fluid" alt="//www.html.am/images/samples/remarkables_queenstown_new_zealand-300x225.jpg">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+     <!-- Card -->
+     <section id="card">
+          <div class="container reveal container-fluid pt-5 pb-5 d-grid align-content-center ">
+               <h2 class="text-light mb-4">Our Teams</h2>
+               <div class="row row-cols-2 row-cols-md-4 g-4">
+                    <div class="col">
+                         <div class="card h-auto text-center p-1">
+                              <img src="img/faiq.jpg" class="card-img-top "
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h6 class="card-title">Faiq Munyahh</h6>
+                                   <a href="#faiq" class="stretched-link"></a>
+                              </div>
+     
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card  h-auto p-1">
+                              <img src="img/shila.jpg" class="card-img-top"
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body text-center txt">
+                                   <h6 class="card-title">Shila Aswatama</h6>
+                                   <a href="#shila" class="stretched-link"></a>
+                              </div>
+     
+     
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card h-auto p-1">
+                              <img src="img/diaz.jpg" class="card-img-top"
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body text-center">
+                                   <h6 class="card-title">M. Aranda Diaz</h6>
+                                   <a href="#diaz" class="stretched-link"></a>
+                              </div>
+     
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card h-auto text-center p-1">
+                              <img src="img/dede.jpg" class="card-img-top "
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h6 class="card-title">M. Herdiansyah</h6>
+                                   <a href="#dede" class="stretched-link"></a>
+                              </div>
+     
+                         </div>
+                    </div>
+                    <div class="col card-ms">
+                         <div class="card h-auto p-1 slide ">
+                              <img src="img/tet.jpg" class="card-img-top img-fluid"
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body text-center">
+                                   <h6 class="card-title">Fandi Ahmad</h6>
+                                   <a href="#fandi" class="stretched-link"></a>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card h-auto text-center p-1">
+                              <img src="img/rendy.jpg" class="card-img-top "
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h6 class="card-title">Rendyansyah</h6>
+                                   <a href="#rendy" class="stretched-link"></a>
+                              </div>
+     
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card h-auto text-center p-1">
+                              <img src="img/boye.jpg" class="card-img-top "
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h6 class="card-title">M.Zahran</h6>
+                                   <a href="#boye" class="stretched-link"></a>
+                              </div>
+     
+                         </div>
+                    </div>
+                    <!-- <div class="col">
+                         <div class="card h-auto text-center">
+                              <img src="https://via.placeholder.com/200x250" class="card-img-top"
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h5 class="card-title">Fandi Ahmad</h5>
+     
+                              </div>
+     
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card h-auto text-center">
+                              <img src="https://via.placeholder.com/200x250" class="card-img-top"
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h5 class="card-title">Fandi Ahmad</h5>
+     
+                              </div>
+     
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card h-auto text-center">
+                              <img src="https://via.placeholder.com/200x250" class="card-img-top"
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h5 class="card-title">Fandi Ahmad</h5>
+     
+                              </div>
+     
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card h-auto text-center">
+                              <img src="https://via.placeholder.com/200x250" class="card-img-top"
+                                   alt="https://via.placeholder.com/200x250">
+                              <div class="card-body">
+                                   <h5 class="card-title">Fandi Ahmad</h5>
+     
+                              </div>
+     
+                         </div>
+                    </div> -->
+               </div>
+          </div>
+     </section>
+
+     <section id="about-us">
+     <section id="fandi" class="mt-2 mt-md-5 mb-5 p-2 pt-md-5 pb-md-5 bg-image-f">
+          <div class="container reveal container-fluid d-sm-flex ">
+               <div class="align-items-center p-5 ">
+                    <img src="img/5.jpg" class="rrounded rounded-5 img-fluid w-100 shadow shadow-lg img-thumbnail" alt="">
+               </div>
+               <div class="mt-md-5 ">
+                    <!-- <div class="tenor-gif-embed " data-postid="22424730" data-share-method="host" data-aspect-ratio="1.52381" data-width="50%"><a href="https://tenor.com/view/mewo-omori-gif-22424730">Mewo Omori GIF</a>from <a href="https://tenor.com/search/mewo-gifs">Mewo GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+                    <div>
+                         <h3>Tentang</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div>
+                         <h3>Kontak</h3>
+                         <ul class="social-icon-style2 p-0">
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                         </ul>
+                    </div>
+                    <div class="">
+                         <form action="fandi.html">
+                              <a class="btn btn-primary w-100" href="fandi.html">More Detail</a>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section id="shila" class="mt-2 mt-md-5 mb-5 p-2 pt-md-5 pb-md-5 bg-image-s">
+          <div class="container reveal container-fluid d-sm-flex ">
+               <div class="align-items-center p-5 ">
+                    <img src="img/shila2.jpg" class="image-hover rounded rounded-5 img-fluid w-100 shadow shadow-lg img-thumbnail" alt="">
+               </div>
+               <div class="text-light mt-md-5">
+                    <!-- <div class="tenor-gif-embed " data-postid="22424730" data-share-method="host" data-aspect-ratio="1.52381" data-width="50%"><a href="https://tenor.com/view/mewo-omori-gif-22424730">Mewo Omori GIF</a>from <a href="https://tenor.com/search/mewo-gifs">Mewo GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+                    <div>
+                         <h3>Tentang</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="">
+                         <h3>Kontak</h3>
+                          <ul class="social-icon-style2 p-0">
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                         </ul>
+                    </div>
+                    <div class="mb-5 mb-md-0">
+                         <form action="fandi.html">
+                              <a class="btn btn-primary w-100" href="fandi.html">More Detail</a>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section id="diaz" class="mt-2 mt-md-5 mb-5 p-2 pt-md-5 pb-md-5 bg-image-s">
+          <div class="container reveal container-fluid d-sm-flex ">
+               <div class="align-items-center p-5">
+                    <img src="img/diaz2.jpg" class="rounded rounded-5 img-fluid w-100 shadow shadow-lg img-thumbnail" alt="">
+               </div>
+               <div class="mt-md-5 ">
+                    <!-- <div class="tenor-gif-embed " data-postid="22424730" data-share-method="host" data-aspect-ratio="1.52381" data-width="50%"><a href="https://tenor.com/view/mewo-omori-gif-22424730">Mewo Omori GIF</a>from <a href="https://tenor.com/search/mewo-gifs">Mewo GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+                    <div>
+                         <h3>Tentang</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="">
+                         <h3>Kontak</h3>
+                          <ul class="social-icon-style2 p-0">
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                         </ul>
+                    </div>
+                    <div class="">
+                         <form action="fandi.html">
+                              <a class="btn btn-primary w-100" href="fandi.html">More Detail</a>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section id="dede" class="mt-2 mt-md-5 mb-5 p-2 pt-md-5 pb-md-5">
+          <div class="container reveal container-fluid d-sm-flex ">
+               <div class="align-items-center p-5">
+                    <img src="img/dede2.jpg" class="rounded rounded-5 img-fluid w-100 shadow shadow-lg img-thumbnail" alt="">
+               </div>
+               <div class="text-light mt-md-5 ">
+                    <!-- <div class="tenor-gif-embed " data-postid="22424730" data-share-method="host" data-aspect-ratio="1.52381" data-width="50%"><a href="https://tenor.com/view/mewo-omori-gif-22424730">Mewo Omori GIF</a>from <a href="https://tenor.com/search/mewo-gifs">Mewo GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+                    <div>
+                         <h3>Tentang</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="">
+                         <h3>Kontak</h3>
+                          <ul class="social-icon-style2 p-0">
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                         </ul>
+                    </div>
+                    <div class="mb-5 mb-md-0">
+                         <form action="fandi.html">
+                              <a class="btn btn-primary w-100" href="fandi.html">More Detail</a>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section >
+     <section id="faiq" class="t-2 mt-md-5 mb-5 p-2 pt-md-5 pb-md-5">
+          <div class="container reveal container-fluid d-sm-flex ">
+               <div class="align-items-center p-5">
+                    <img src="img/faiq2.jpg" class="rounded rounded-5 img-fluid w-100 shadow shadow-lg img-thumbnail" alt="">
+               </div>
+               <div class="mt-md-5">
+                    <!-- <div class="tenor-gif-embed " data-postid="22424730" data-share-method="host" data-aspect-ratio="1.52381" data-width="50%"><a href="https://tenor.com/view/mewo-omori-gif-22424730">Mewo Omori GIF</a>from <a href="https://tenor.com/search/mewo-gifs">Mewo GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+                    <div>
+                         <h3>Tentang</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="">
+                         <h3>Kontak</h3>
+                          <ul class="social-icon-style2 p-0">
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                         </ul>
+                    </div>
+                    <div class="">
+                         <form action="fandi.html">
+                              <a class="btn btn-primary w-100" href="fandi.html">More Detail</a>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section id="rendy" class="mt-2 mt-md-5 mb-5 p-2 pt-md-5 pb-md-5">
+          <div class="container reveal container-fluid d-sm-flex ">
+               <div class="align-items-center p-5">
+                    <img src="img/rendy2.jpg" class="rounded rounded-5 img-fluid w-100 shadow shadow-lg img-thumbnail" alt="">
+               </div>
+               <div class="text-light mt-md-5 ">
+                    <!-- <div class="tenor-gif-embed " data-postid="22424730" data-share-method="host" data-aspect-ratio="1.52381" data-width="50%"><a href="https://tenor.com/view/mewo-omori-gif-22424730">Mewo Omori GIF</a>from <a href="https://tenor.com/search/mewo-gifs">Mewo GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+                    <div>
+                         <h3>Tentang</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="">
+                         <h3>Kontak</h3>
+                          <ul class="social-icon-style2 p-0">
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                         </ul>
+                    </div>
+                    <div class="mb-5 mb-md-0">
+                         <form action="fandi.html">
+                              <a class="btn btn-primary w-100" href="fandi.html">More Detail</a>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <section id="boye" class="t-2 mt-md-5 mb-5 p-2 pt-md-5 pb-md-5">
+          <div class="container reveal container-fluid d-sm-flex ">
+               <div class="align-items-center p-5">
+                    <img src="img/boye2.jpg" class="rounded rounded-5 img-fluid w-100 shadow shadow-lg img-thumbnail" alt="">
+               </div>
+               <div class="mt-md-5">
+                    <!-- <div class="tenor-gif-embed " data-postid="22424730" data-share-method="host" data-aspect-ratio="1.52381" data-width="50%"><a href="https://tenor.com/view/mewo-omori-gif-22424730">Mewo Omori GIF</a>from <a href="https://tenor.com/search/mewo-gifs">Mewo GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
+                    <div>
+                         <h3>Tentang</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="">
+                         <h3>Kontak</h3>
+                          <ul class="social-icon-style2 p-0">
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-youtube"></i></a></li>
+                              <li><a href="#!" class="rounded-3"><i class="fab fa-linkedin-in"></i></a></li>
+                         </ul>
+                    </div>
+                    <div class="">
+                         <form action="fandi.html">
+                              <a class="btn btn-primary w-100" href="fandi.html">More Detail</a>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </section>
+     </section>
+     <div class="mt-5">
+
+          <footer class="text-center text-lg-start" style="background-color: #212529;">
+            <div class="container d-flex justify-content-center py-5">
+              <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                <i class="fab fa-youtube"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                <i class="fab fa-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+                <i class="fab fa-twitter"></i>
+              </button>
+            </div>
+        
+            <!-- Copyright -->
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © Coblong Academy
+              <!-- <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
+            </div>
+            <!-- Copyright -->
+          </footer>
+          
+        </div>
+</body>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="script/style.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</html>
