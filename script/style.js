@@ -1,4 +1,4 @@
- 
+//  Loader
   document.onreadystatechange = function() {
     if (document.readyState !== "complete") {
         document.querySelector("body").style.visibility = "hidden";
@@ -8,6 +8,8 @@
         document.querySelector("body").style.visibility = "visible";
     }
 };
+
+// Navbar
 document.addEventListener("DOMContentLoaded", function(){
   window.addEventListener('scroll', function() {
       if (window.scrollY > 50) {
@@ -22,6 +24,8 @@ document.addEventListener("DOMContentLoaded", function(){
       } 
   });
 }); 
+
+// Reveal Animation
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 

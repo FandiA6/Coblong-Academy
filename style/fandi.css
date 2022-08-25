@@ -70,9 +70,12 @@ a, a:active, a:focus {
     -o-transition-duration: .2s;
 }
 
-.text-scnd, .text-scnd-hover:hover {
+.text-scnd{
     color: #54456b !important;
     
+}
+.text-scnd-hover:focus {
+    color: #212529;
 }
 .display-25 {
     font-size: 1.4rem;
@@ -90,3 +93,13 @@ p {
     margin-bottom: 1.6rem;
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
