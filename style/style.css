@@ -185,7 +185,39 @@ html, body{
      right: 0;
      margin-top: 350px;
  }
- @media only screen and (min-width: 720px){
+
+@media only screen and (min-width: 720px){
+     #shila{
+          padding-top: 100px;
+          height: 100vh;
+     }   
+     #fandi{
+          padding-top: 100px;
+          height: 95vh;
+     }
+     #diaz{
+          padding-top: 100px;
+          height: 95vh;
+     }
+     #dede{
+          padding-top: 120px;
+          height: 100vh;
+     }
+     #faiq{
+          padding-top: 100px;
+          height: 95vh;
+     }
+     #rendy{
+          padding-top: 100px;
+          height: 100vh;
+     }
+     #boye{
+          padding-top: 100px;
+          height: 95vh;
+     }
+     .card-ms{
+          margin-left: 140px;
+     }
      .center {
 
           position: absolute;
@@ -196,51 +228,19 @@ html, body{
           margin: 300px;
       }
 }
-@media only screen and (min-width: 720px){
-     #shila{
-          padding-top: 100px;
-          height: 100vh;
-     }   
-}
-@media only screen and (min-width: 720px){
-     #fandi{
-          padding-top: 100px;
-          height: 95vh;
-     }
-}
-@media only screen and (min-width: 720px){
-     #diaz{
-          padding-top: 100px;
-          height: 95vh;
-     }
-}
-@media only screen and (min-width: 720px){
-     #dede{
-          padding-top: 120px;
-          height: 100vh;
-     }
-}
-@media only screen and (min-width: 720px){
-     #faiq{
-          padding-top: 100px;
-          height: 95vh;
-     }
-}
-@media only screen and (min-width: 720px){
-     #rendy{
-          padding-top: 100px;
-          height: 100vh;
-     }
-}
-@media only screen and (min-width: 720px){
-     #boye{
-          padding-top: 100px;
-          height: 95vh;
-     }
-}
-@media only screen and (min-width: 720px){
-     .card-ms{
-          margin-left: 140px;
-     }
-}
 
+@media only screen and (width: 768px){
+     .card-ms{
+          margin-left: 90px;
+     }
+}
+/* @media only screen and (min-width: 1024px){
+     #fandi{
+          padding-top: 1400000px;
+          height: 85vh;
+     }
+     #shila{
+          padding-top: 1000px;
+          height: 85vh;
+     }
+} */
