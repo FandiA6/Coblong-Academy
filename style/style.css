@@ -227,6 +227,20 @@ html, body{
           right: 0;
           margin: 300px;
       }
+      .carousel{
+          padding: 0 ,0,0,0px;
+         
+          background-color: #212529;
+     }
+     .carousel img{
+          display: flex;
+          justify-content: center;
+          height: 610px;
+          width: auto;
+     }
+      /* .img-height{
+          height: 1000000px;
+      } */
 }
 
 @media only screen and (width: 768px){
