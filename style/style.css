@@ -55,7 +55,6 @@ html, body{
 }
 .card:hover{
      opacity: 1;
-     margin-top: -10px;
      /* transition: margin 0.2s ease-in-out; */
 
 }
@@ -328,3 +327,50 @@ html, body{
           height: 85vh;
      }
 } */
+
+
+.col .card {
+	/* position: relative; */
+	/* width: auto; */
+	/* height: 400px; */
+	background: rgba(255, 255, 255, 0.05);
+	/* margin: px; */
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	/* border-radius: 15px; */
+	/* display: flex; */
+	/* justify-content: center; */
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.col .card .content {
+	transition: 0.5s;
+}
+
+.col .card:hover .content {
+	transform: translateY(-30px);
+}
+
+.col .card .sci {
+	position: absolute;
+	bottom: 10px;
+	/* display: flex; */
+}
+
+.col .card .sci li {
+	list-style: none;
+	/* margin: 0 10px; */
+	transform: translateY(20px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.col .card:hover .sci li {
+	transform: translatex(-16px);
+	opacity: 1;
+}
+
+.col .card .sci li a {
+	color: #fff !important;
+	font-size: 20px;
+}
